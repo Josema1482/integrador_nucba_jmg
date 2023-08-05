@@ -417,6 +417,75 @@ header img{
     cursor: pointer; 
 }
 
+/*-------------------------LOCATION-------------------------*/
+#location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+    gap: 25px;
+}
 
+.location-title{
+    font-size: 80px;
+    font-family: var(--fontanton);
+    text-transform: uppercase;
+    color: var(--colorseis);
+    letter-spacing: 4px;
+    margin-bottom: -20px;
+}
 
+.location-subtitle{
+    font-family: var(--fontmonse);
+    font-size: 16px;
+    color: var(--colorseis);
+    text-transform: uppercase;
+    font-weight: 600; 
+}
+
+.location-info{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.location-info-maps{
+    width: 50%;
+}
+
+.locaction-info-container{
+    width: 50%;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.location-info-telephone,
+.location-info-address, .location-info-week, .location-info-sunday, .location-info-weekend{
+    display: flex;
+    justify-content: space-between;
+}
+
+.locaction-info-container h3{
+    font-family: var(--fontanton);
+    text-transform: uppercase;
+    font-size: 30px;
+    color: var(--colorseis);
+    font-weight: normal;
+    margin-top: 30px;
+}
+
+.locaction-info-container p{
+font-family: var(--fontmonse);
+text-transform: uppercase;
+color: var(--colorseis);
+font-weight: 700;
+font-size: 16px;
+}
+
+hr{
+border: 1px solid var(--colorseis);
+}
 

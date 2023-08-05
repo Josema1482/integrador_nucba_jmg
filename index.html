@@ -4,16 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/styles.css" />
-    <title>Document</title>
+    <title>Trigolim</title>
   </head>
   <body>
     <header>
       <nav>
         <ul>
           <li><a href="">Inicio</a></li>
-          <li><a href="">Nosotros</a></li>
-          <li><a href="">Servicios</a></li>
-          <li><a href="">Contacto</a></li>
+          <li><a href="#about">Nosotros</a></li>
+          <li><a href="#cards">Productos</a></li>
+          <li><a href="#location">Ubicacion</a></li>
+          <li><a href="#contact">Contacto</a></li>
         </ul>
       </nav>
       <img src="./assets/images/logo-trigolim.png" alt="" />
@@ -31,7 +32,7 @@
         <h2 class="about-h2">Nosotros</h2>
         <p class="about-text-uno">
           En Trigolim, la innovación es constante. Nuestro equipo de expertos
-          culinarios y apasionados artesanos trabaja incansablemente para
+          culinarios y apasionados artesanos trabajan incansablemente para
           desarrollar nuevas variedades de tapas de empanada que sorprendan y
           encanten a nuestros clientes. Cada tapa es una obra maestra que
           combina técnicas tradicionales con un toque contemporáneo, creando una
@@ -86,18 +87,81 @@
         <div class="separador-uno"></div>
         <div class="separador-dos"></div>
       </section>
+
+
+
+
+      <section id="location" class="container">
+        <h2 class="location-title">Ubicacion</h2>
+        <p class="location-subtitle">Acá nos podes encontrar</p>
+
+        <div class="location-info">
+          <div class="locaction-info-container">
+            
+              <h3>Contacto</h3>
+              <hr>
+              <div class="location-info-telephone">
+                <p>Telefono</p>
+                <p>+54 0294 154897690</p>
+              </div>
+              <hr>
+              <div class="location-info-address">
+                <p>Direccion</p>
+                <p>Santa Cruz 1061</p>
+              </div>
+    
+              <h3>Horarios</h3>
+              <div class="location-info-week">
+                <p>Lunes a Viernes</p>
+                <p>8.00 a 17.00</p>
+              </div>
+              <hr>
+              <div class="location-info-weekend">
+                <p>Sabado</p>
+                <p>8.00 a 13.00</p>
+              </div>
+              <hr>
+              <div class="location-info-sunday">
+                <p>Domingo</p>
+                <p>Cerrado</p>
+              </div>
+          </div>
+          <div class="location-info-maps">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192339.19917159525!2d-71.50472593836896!3d-41.12797677920716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a7b1520c860e5%3A0x8210ae97cb7b9a65!2sSan%20Carlos%20de%20Bariloche%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses!2sar!4v1691190391371!5m2!1ses!2sar"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section id="separador" class="container">
+        <div class="separador-uno"></div>
+        <div class="separador-dos"></div>
+      </section>
       <section id="contact" class="container">
         <h2 class="contact-title">Contacto</h2>
         <p class="contact-subtitle">Si tenés alguna duda, podés escribirnos</p>
-          <div class="contact-form">
-            <form action="">
-              <input type="text" placeholder="Nombre y Apellido"/>
-              <input type="tel" placeholder="Celular"/>
-              <input type="email" placeholder="Correo Electronico"/>
-              <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje:"></textarea>
-              <a href="" class="contact-btn">Enviar</a>
-            </form>
-            </div>
+        <div class="contact-form">
+          <form action="">
+            <input type="text" placeholder="Nombre y Apellido" />
+            <input type="tel" placeholder="Celular" />
+            <input type="email" placeholder="Correo Electronico" />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Mensaje:"
+            ></textarea>
+            <a href="" class="contact-btn">Enviar</a>
+          </form>
+        </div>
       </section>
     </main>
   </body>
