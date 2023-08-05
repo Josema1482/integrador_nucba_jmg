@@ -23,7 +23,7 @@
   text-decoration: none;
 }
 
-html {
+html{
   background-color: var(--colortres);
 }
 
@@ -47,9 +47,6 @@ header {
 header nav ul{
     display: flex;
     gap: 15px;
-    font-family: var(--fontmonse);
-    font-weight: 600;
-    
 }
 
 header nav ul li{
@@ -64,14 +61,14 @@ header nav ul a{
     color: var(--colorseis);
     text-transform: uppercase;
     font-size: 14px;
+    font-family: var(--fontmonse);
+    font-weight: 600;
     transition: all .4s;
-    
 }
 
 header nav ul a:hover{
     color: var(--coloruno);
     transform: scale(1.2);
-    
 }
 
 header img{
@@ -110,14 +107,14 @@ header img{
     justify-content: center;
     align-items: center;
     gap: 20px;
-   }
+}
 
 .hero-text{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    }
+}
 
 .hero-text-h1{
     font-family: var(--fonthero);
@@ -172,7 +169,6 @@ header img{
     font-size: 16px;
     color: var(--colorseis);
     text-transform: uppercase;
-
 }
 
 .about-text-uno{
@@ -489,3 +485,64 @@ hr{
 border: 1px solid var(--colorseis);
 }
 
+/*-------------------------FOOTER-------------------------*/
+footer{
+    height: 250px;
+    bottom: 0;
+    background-color: var(--colortres);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    border-top: 1px solid var(--colorseis);
+    padding: 10px 0;
+}
+
+footer .footer-logo{
+    height: 75px;
+    width: 75px;
+}
+
+.footer-nav nav ul{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-nav nav ul li a{
+    color: var(--colorseis);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: var(--fontmonse);
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+.footer-nav nav ul li a:hover{
+    color: var(--coloruno);
+}
+
+.footer-derechos{
+    color: var(--colorseis);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: var(--fontmonse);
+    font-weight: 600;
+}
+
+.footer-social{
+    display: flex;
+    gap: 15px;
+}
+
+.footer-social img{
+    width: 35px;
+    height: 35px;
+    transition: all 0.5s;
+}
+
+.footer-social img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
