@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
+
+:root {
+  --coloruno: #4db848;
+  --colordos: #f05023;
+  --colortres: #bdd747;
+  --colorcuatro: #faa61a;
+  --colorcinco: #000000;
+  --colorseis: #f8f8ff;
+
+  --fontmonse: "Montserrat", sans-serif;
+  --fontanton: "Anton", sans-serif;
+  --fonthero: "Alex Brush", cursive;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html{
+  background-color: var(--colortres);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-section {
+  border: 1px solid var(--colorseis);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 15px;
+}
+
+.login-section img {
+  width: 100px;
+  height: 100px;
+}
+
+.login-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  width: 350px;
+  gap: 35px;
+}
+
+.login-form form input{
+  border-bottom: 1px solid var(--colorseis);
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  background-color: var(--colortres);
+  font-family: var(--fontmonse);
+  color: var(--colorseis);
+  outline: none;
+  padding-bottom: 3px; 
+  font-family: var(--fontmonse);
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.login-form form input::placeholder{
+  font-family: var(--fontmonse);
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--colorseis);
+  font-size: 15px;
+}
+
+.login-section h1{
+  font-family: var(--fontanton);
+  text-transform: uppercase;
+  font-size: 30px;
+  color: var(--colorseis);
+  font-weight: normal;
+  letter-spacing: 3px;
+}
+
+.login-form form img{
+  width: 25px;
+  height: 25px;
+}
+
+.login-form form .login-form-user{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.login-form form .login-form-pass{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.login-form .login-btn{
+  border: 1px solid var(--colorseis) ;
+  padding: 8px 19px;
+  font-family: var(--fontanton);
+  text-transform: uppercase;
+  border-radius: 100px;
+  font-size: 20px;
+  color: var(--colorseis);
+  letter-spacing: 6px;
+  transition: all .5s;
+  width: 140px;
+  text-align: center;
+}
+
+.login-form .login-btn:hover{
+  background-color: var(--coloruno);
+    border: 1px solid var(--coloruno);
+    cursor: pointer; 
+}
+
+.closed{
+  font-family: var(--fontmonse);
+  font-size: 17px;
+  color: var(--colorseis);
+  text-transform: uppercase;
+  font-weight: 600; 
+  margin-bottom: 8px;
+  align-self: center;
+  color: var(--coloruno);
+  font-weight: 700;
+  transition: all .5s;
+}
+
+.closed:hover{
+  transform: scale(1.03);
+}
+
+.login-section .no-user{
+  font-family: var(--fontmonse);
+  font-size: 16px;
+  color: var(--colorseis);
+  text-transform: uppercase;
+  font-weight: 600; 
+  margin-bottom: 8px;
+  align-self: center;
+  transition: all 0.5s;
+}
+
+.login-section .no-user:hover{
+  transform: scale(1.03);
+  cursor: pointer;
+  color: var(--coloruno);
+}
