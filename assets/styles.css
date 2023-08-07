@@ -563,14 +563,11 @@ nav label {
   display: none;
 }
 
-
-
-
 @media (max-width: 768px) {
-header{
+  header {
     display: flex;
     flex-direction: row-reverse;
-}
+  }
 
   header nav ul {
     background-color: var(--coloruno);
@@ -587,163 +584,169 @@ header{
     display: none;
   }
 
-  nav label{
+  nav label {
     display: block;
   }
 
-  #toggle-menu:checked ~ ul{
+  #toggle-menu:checked ~ ul {
     display: flex;
   }
-  .ingresar{
+  .ingresar {
     order: 1;
   }
 
-  header img{
+  header img {
     order: 2;
   }
 
-  .hero-text-h1{
+  .hero-text-h1 {
     font-size: 90px;
   }
 
-  .about-text-uno{
+  .about-text-uno {
     padding: 0 50px;
   }
 
-  .about-text-dos{
+  .about-text-dos {
     padding-right: 50px;
     padding-left: 50px;
   }
 
-  .cards-section{
+  .cards-section {
     flex-wrap: wrap;
     justify-content: center;
-}
+  }
 
-.card:nth-child(1){
+  .card:nth-child(1) {
     border-bottom: 0;
-}
+  }
 
-.card:nth-child(2){
+  .card:nth-child(2) {
     border-bottom: 0;
     border-right: 1px solid var(--colorseis);
-}
+  }
 
-.location-info{
+  .location-info {
     flex-direction: column;
     align-items: center;
-}
+  }
 
-.locaction-info-container{
+  .locaction-info-container {
     width: 72%;
+  }
 
-}
-
-.location-info-maps{
+  .location-info-maps {
     width: 100%;
     justify-content: center;
     align-items: center;
     display: flex;
     margin-top: 25px;
+  }
 }
-}
 
-@media (max-width: 425px){
-    .hero-text-h1{
-        font-size: 55px;
-    }
+@media (max-width: 320px) {
+  .hero-text-h1 {
+    font-size: 45px;
+  }
 
-    .hero-text-parrafo{
-        font-size: 15px;
-        margin-top: 5px;
-    }
+  .hero-text-parrafo {
+    font-size: 13px;
+    margin-top: 5px;
+  }
 
-    #about{
-        padding-left: 7px;
-        padding-right: 7px;
-    }
+  #about {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
 
-    .about-text-uno{
-       font-size: 25px;
-       line-height: 32px;
-       padding-right: 20px;
-       padding-left: 20px;
-    }
-    
-    .about-text-dos{
-        padding-right: 20px;
-       padding-left: 20px;
-    }
+  .about-text-uno {
+    font-size: 25px;
+    line-height: 32px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 
-    .cards-title{
-        font-size: 60px;
-    }
+  .about-text-dos {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 
-    .cards-subtitle{
-        font-size: 14px;
-    }
+  .cards-title {
+    font-size: 50px;
+  }
 
-    .card:nth-child(1){
-        border-right: 1px solid var(--colorseis);
-        border-bottom: none;
-    }
+  .cards-subtitle {
+    font-size: 13px;
+  }
 
-    .card:nth-child(3){
-        border-right: 1px solid var(--colorseis);
-        border-bottom: none;
-    }
+  .card:nth-child(1) {
+    border-right: 1px solid var(--colorseis);
+    border-bottom: none;
+  }
 
-    .location-title{
-        font-size: 60px;
-    }
+  .card:nth-child(3) {
+    border-right: 1px solid var(--colorseis);
+    border-bottom: none;
+  }
 
-    .location-subtitle{
-        font-size: 14px;
-    }
+  .location-title {
+    font-size: 50px;
+  }
 
-    .locaction-info-container{
-        width: 80%;
-    }
+  .location-subtitle {
+    font-size: 13px;
+  }
 
-    .location-info-maps{
-        width: 80%;
-        justify-content: center;
-        align-items: center;
-        display: flex; 
-    }
+  .locaction-info-container {
+    width: 100%;
+  }
 
-    .contact-title{
-        font-size: 60px;
-    }
+  .location-info-maps {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
 
-    .contact-subtitle{
-        font-size: 14px;
-    }
+  .contact-title {
+    font-size: 50px;
+  }
 
-    .contact-form{
-        width: 90%;
-        justify-content: center;
-    }
+  .contact-subtitle {
+    font-size: 13px;
+    text-align: center;
+  }
 
-    footer{
-        height: 300px;
-    }
+  .contact-form {
+    width: 100%;
+    justify-content: center;
+  }
 
-    .footer-nav nav ul{
-        flex-wrap: wrap;
-    }
+  .contact-form form{
+    width: 80%;
+  }
 
-    .footer-nav nav ul{
-        justify-content: center;
-    }
+  footer {
+    height: 300px;
+  }
 
-    footer p{
-        text-align: center;
-        font-size: 12px;
-    }
+  .footer-nav nav ul {
+    flex-wrap: wrap;
+  }
 
-    .ingresar{
-        font-size: 14px;
-        padding: 10px 20px;
-    }
+  .footer-nav nav ul {
+    justify-content: center;
+  }
+
+  footer p {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .ingresar {
+    font-size: 14px;
+    padding: 10px 5px;
+    text-align: center;
+    width: 40%;
+  }
 }
