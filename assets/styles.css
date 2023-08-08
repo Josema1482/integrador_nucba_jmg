@@ -644,14 +644,16 @@ nav label {
   }
 }
 
-@media (max-width: 388px) {
+@media (max-width: 350px) {
   .hero-text-h1 {
-    font-size: 45px;
+    font-size: 47px;
   }
 
   .hero-text-parrafo {
-    font-size: 13px;
+    font-size: 14px;
     margin-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   #about {
