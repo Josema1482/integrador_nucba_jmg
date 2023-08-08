@@ -644,7 +644,7 @@ nav label {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 350px) {
   .hero-text-h1 {
     font-size: 44px;
   }
@@ -680,6 +680,8 @@ nav label {
   .cards-subtitle {
     font-size: 13px;
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .card:nth-child(1) {
