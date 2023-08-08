@@ -720,6 +720,8 @@ nav label {
   .contact-subtitle {
     font-size: 13px;
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .contact-form {
@@ -737,10 +739,9 @@ nav label {
 
   .footer-nav nav ul {
     flex-wrap: wrap;
-  }
-
-  .footer-nav nav ul {
     justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   footer p {
