@@ -644,7 +644,7 @@ nav label {
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 320px) {
   .hero-text-h1 {
     font-size: 47px;
   }
