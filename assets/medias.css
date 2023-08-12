@@ -1,3 +1,110 @@
+@media (max-width: 1210px) {
+  .about-text-uno {
+    padding: 0 130px 0 130px;
+  }
+
+  .location-info-maps {
+    overflow: hidden;
+    padding-bottom: 42%;
+    position: relative;
+    height: 0;
+    width: 45%;
+  }
+
+  .location-info-maps iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+}
+
+@media (max-width: 1051px){
+  .hero-text-h1{
+    font-size: 140px;
+  }
+}
+
+@media (max-width: 1037px){
+  .cards-section{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card:nth-child(2){
+    border-bottom: 0;
+  }
+
+  .card:nth-child(3) {
+    border-right: 1px solid var(--colorseis);
+}
+}
+
+@media (max-width: 971px){
+  .hero-text-h1{
+    font-size: 120px;
+  }
+}
+
+@media (max-width: 873px){
+  header {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  header nav ul {
+    background-color: var(--coloruno);
+    width: 100%;
+    height: calc(100vh-80px);
+    position: absolute;
+    top: 85px;
+    left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 0;
+    display: none;
+  }
+
+  nav label {
+    display: block;
+  }
+
+  #toggle-menu:checked ~ ul {
+    display: flex;
+  }
+  .ingresar {
+    order: 1;
+  }
+
+  header img {
+    order: 2;
+  }
+
+  .hero-text-h1{
+    font-size: 110px;
+  }
+
+  .location-info-maps{
+    overflow:hidden;
+    padding-bottom:47%;
+    position:relative;
+    height:0;
+  width: 45%;
+  }
+  
+  .location-info-maps iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+
+
+}
+
 @media (max-width: 768px) {
   header {
     display: flex;
@@ -70,12 +177,21 @@
     width: 80%;
   }
 
-  .location-info-maps {
-    width: 75%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-top: 25px;
+
+  .location-info-maps{
+    overflow:hidden;
+    padding-bottom:65%;
+    position:relative;
+    height:0;
+  width: 78%;
+  }
+  
+  .location-info-maps iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
   }
 }
 
@@ -115,11 +231,11 @@
 
   .card:nth-child(1) {
     border-right: none;
-    border-bottom: 1px solid var(--colorseis);
+    border-bottom: none;
   }
 
   .card:nth-child(3) {
-    border-right: none; 
+    border-right: none;
     border-bottom: 1px solid var(--colorseis);
   }
   .locaction-info-container {
@@ -134,7 +250,18 @@
   }
 
   .location-info-maps {
-    width: 78%;
+    overflow: hidden;
+    padding-bottom: 55%;
+    position: relative;
+    height: 0;
+  }
+
+  .location-info-maps iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
   }
 
   .contact-title {
@@ -150,7 +277,28 @@
   }
 }
 
-@media (max-width: 476px) {
+@media (max-width: 535px) {
+  .card:nth-child(1) {
+    border-bottom: 0;
+  }
+
+  .location-info-maps {
+    overflow: hidden;
+    padding-bottom: 55%;
+    position: relative;
+    height: 0;
+  }
+
+  .location-info-maps iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+}
+
+@media (max-width: 519px) {
   .ingresar {
     font-size: 16px;
     padding: 7px 3px;
@@ -209,7 +357,22 @@
   }
 
   .locaction-info-container {
-    width: 95%;
+    width: 90%;
+  }
+
+  .location-info-maps {
+    overflow: hidden;
+    padding-bottom: 60%;
+    position: relative;
+    height: 0;
+  }
+
+  .location-info-maps iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
   }
 
   .contact-title {
@@ -313,10 +476,18 @@
   }
 
   .location-info-maps {
-    width: 80%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+    overflow: hidden;
+    padding-bottom: 55%;
+    position: relative;
+    height: 0;
+  }
+
+  .location-info-maps iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
   }
 
   .contact-title {
@@ -369,7 +540,7 @@
     font-size: 42px;
   }
 
-  .locaction-info-container{
+  .locaction-info-container {
     width: 100%;
   }
 }
@@ -379,7 +550,22 @@
     font-size: 40px;
   }
 
-  .locaction-info-container{
+  .locaction-info-container {
     width: 100%;
+  }
+
+  .location-info-maps {
+    overflow: hidden;
+    padding-bottom: 40%;
+    position: relative;
+    height: 0;
+  }
+
+  .location-info-maps iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
   }
 }
