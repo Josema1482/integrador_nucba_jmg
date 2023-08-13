@@ -167,3 +167,20 @@ html{
   cursor: pointer;
   color: var(--coloruno);
 }
+
+/*-----------------------MEDIAS QUERYS-----------------------*/
+
+@media (max-width: 375px){
+  #login{
+    margin-top: 18px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  
+  .login-section{
+    border: none;
+    
+  }
+}

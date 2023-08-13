@@ -1,11 +1,11 @@
-@media (max-width: 1210px) {
+@media (max-width: 1205px) {
   .about-text-uno {
     padding: 0 130px 0 130px;
   }
 
   .location-info-maps {
     overflow: hidden;
-    padding-bottom: 42%;
+    padding-bottom: 36%;
     position: relative;
     height: 0;
     width: 45%;
@@ -20,33 +20,122 @@
   }
 }
 
-@media (max-width: 1051px){
-  .hero-text-h1{
-    font-size: 140px;
+@media (max-width: 1145px) {
+  .location-info-maps {
+    overflow: hidden;
+    padding-bottom: 38%;
+    position: relative;
+    height: 0;
+    width: 47%;
+  }
+
+  .location-info-maps iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
   }
 }
 
-@media (max-width: 1037px){
-  .cards-section{
+@media (max-width: 1067px) {
+  .hero-text-h1 {
+    font-size: 130px;
+  }
+
+  .card:nth-child(3) {
+    border-right: none;
+  }
+
+  .location-info-maps {
+    overflow: hidden;
+    padding-bottom: 41%;
+    position: relative;
+    height: 0;
+    width: 47%;
+  }
+
+  .location-info-maps iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+}
+
+@media (max-width: 1037px) {
+  .cards-section {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .card:nth-child(2){
+  .card:nth-child(2) {
     border-bottom: 0;
   }
 
   .card:nth-child(3) {
     border-right: 1px solid var(--colorseis);
-}
-}
+  }
 
-@media (max-width: 971px){
-  .hero-text-h1{
-    font-size: 120px;
+  
+  .location-info-maps {
+    overflow: hidden;
+    padding-bottom: 42%;
+    position: relative;
+    height: 0;
+    width: 47%;
+  }
+
+  .location-info-maps iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
   }
 }
 
-@media (max-width: 873px){
+@media (max-width: 971px) {
+  .hero-text-h1 {
+    font-size: 120px;
+  }
+
+  .location-info-maps {
+    overflow: hidden;
+    padding-bottom: 45%;
+    position: relative;
+    height: 0;
+    width: 47%;
+  }
+
+  .location-info-maps iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+}
+
+@media (max-width: 925px) {
+   .location-info-maps {
+    overflow: hidden;
+    padding-bottom: 47%;
+    position: relative;
+    height: 0;
+    width: 47%;
+  }
+
+  .location-info-maps iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+}
+
+@media (max-width: 873px) {
   header {
     display: flex;
     flex-direction: row-reverse;
@@ -82,27 +171,79 @@
     order: 2;
   }
 
-  .hero-text-h1{
+  .hero-text-h1 {
     font-size: 110px;
   }
 
-  .location-info-maps{
-    overflow:hidden;
-    padding-bottom:47%;
-    position:relative;
-    height:0;
-  width: 45%;
-  }
-  
-  .location-info-maps iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+  .location-info-maps {
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
+    width: 45%;
   }
 
+  .location-info-maps iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+}
 
+@media (max-width: 869px){
+  .location-info-maps {
+    overflow: hidden;
+    padding-bottom: 49%;
+    position: relative;
+    height: 0;
+    width: 45%;
+  }
+
+  .location-info-maps iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+}
+
+@media (max-width: 840px){
+  .location-info-maps {
+    overflow: hidden;
+    padding-bottom: 52%;
+    position: relative;
+    height: 0;
+    width: 45%;
+  }
+
+  .location-info-maps iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+}
+
+@media (max-width: 800px){
+  .location-info-maps {
+    overflow: hidden;
+    padding-bottom: 54%;
+    position: relative;
+    height: 0;
+    width: 45%;
+  }
+
+  .location-info-maps iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
 }
 
 @media (max-width: 768px) {
@@ -168,6 +309,11 @@
     border-right: 1px solid var(--colorseis);
   }
 
+  .card:nth-child(3) {
+    border-bottom: 1px solid var(--colorseis);
+    border-right: none;
+  }
+
   .location-info {
     flex-direction: column;
     align-items: center;
@@ -177,21 +323,21 @@
     width: 80%;
   }
 
-
-  .location-info-maps{
-    overflow:hidden;
-    padding-bottom:65%;
-    position:relative;
-    height:0;
-  width: 78%;
+  .location-info-maps {
+    overflow: hidden;
+    padding-bottom: 65%;
+    position: relative;
+    height: 0;
+    width: 77%;
+    margin-top: 20px;
   }
-  
-  .location-info-maps iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+
+  .location-info-maps iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
   }
 }
 
