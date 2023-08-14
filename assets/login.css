@@ -45,8 +45,9 @@ html{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding: 15px 0;
   gap: 15px;
+  width: 350px;
 }
 
 .login-section img {
@@ -59,7 +60,7 @@ html{
   flex-direction: column;
   align-items: center;
   height: 200px;
-  width: 350px;
+  width: 345px;
   gap: 35px;
 }
 
@@ -168,19 +169,30 @@ html{
   color: var(--coloruno);
 }
 
-/*-----------------------MEDIAS QUERYS-----------------------*/
-
+/*-----------------------MEDIAS QUERIES-----------------------*/
 @media (max-width: 375px){
-  #login{
-    margin-top: 18px;
+  #login {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-right: 0;
-    padding-left: 0;
+    height: 100vh;
   }
   
   .login-section{
     border: none;
     
   }
+
+  .login-section .no-user{
+    font-size: 14px;
+  }
+
+  .login-section form {
+    .login-section form {
+      gap: 28px;
+    }
+  }
+
+
 }

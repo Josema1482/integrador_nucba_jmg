@@ -265,6 +265,13 @@ header img {
   align-items: center;
   padding: 29px 29px 45px 29px;
   gap: 30px;
+  transition: all 0.5s;
+}
+
+.card:hover{
+  background-color: var(--colorcuatro);
+  cursor: pointer;
+  transform: scale(1.01);
 }
 
 .card:nth-child(1) {
