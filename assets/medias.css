@@ -77,7 +77,6 @@
     border-right: 1px solid var(--colorseis);
   }
 
-  
   .location-info-maps {
     overflow: hidden;
     padding-bottom: 42%;
@@ -92,6 +91,10 @@
     height: 100%;
     width: 100%;
     position: absolute;
+  }
+
+  .up-trigolim {
+    display: none;
   }
 }
 
@@ -115,10 +118,14 @@
     width: 100%;
     position: absolute;
   }
+
+  .up-trigolim {
+    display: none;
+  }
 }
 
 @media (max-width: 925px) {
-   .location-info-maps {
+  .location-info-maps {
     overflow: hidden;
     padding-bottom: 47%;
     position: relative;
@@ -132,6 +139,10 @@
     height: 100%;
     width: 100%;
     position: absolute;
+  }
+
+  .up-trigolim {
+    display: none;
   }
 }
 
@@ -190,9 +201,13 @@
     width: 100%;
     position: absolute;
   }
+
+  .up-trigolim {
+    display: none;
+  }
 }
 
-@media (max-width: 869px){
+@media (max-width: 869px) {
   .location-info-maps {
     overflow: hidden;
     padding-bottom: 49%;
@@ -208,9 +223,13 @@
     width: 100%;
     position: absolute;
   }
+
+  .up-trigolim {
+    display: none;
+  }
 }
 
-@media (max-width: 840px){
+@media (max-width: 840px) {
   .location-info-maps {
     overflow: hidden;
     padding-bottom: 52%;
@@ -226,9 +245,13 @@
     width: 100%;
     position: absolute;
   }
+
+  .up-trigolim {
+    display: none;
+  }
 }
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
   .location-info-maps {
     overflow: hidden;
     padding-bottom: 54%;
@@ -243,6 +266,10 @@
     height: 100%;
     width: 100%;
     position: absolute;
+  }
+
+  .up-trigolim {
+    display: none;
   }
 }
 
@@ -339,6 +366,10 @@
     width: 100%;
     position: absolute;
   }
+
+  .up-trigolim {
+    display: none;
+  }
 }
 
 @media (max-width: 675px) {
@@ -421,6 +452,10 @@
   .contact-form {
     width: 78%;
   }
+
+  .up-trigolim {
+    display: none;
+  }
 }
 
 @media (max-width: 535px) {
@@ -441,6 +476,10 @@
     height: 100%;
     width: 100%;
     position: absolute;
+  }
+
+  .up-trigolim {
+    display: none;
   }
 }
 
@@ -556,6 +595,10 @@
     text-align: center;
     font-size: 12px;
     padding: 0 15px;
+  }
+
+  .up-trigolim {
+    display: none;
   }
 }
 
@@ -679,6 +722,10 @@
     text-align: center;
     width: 40%;
   }
+
+  .up-trigolim {
+    display: none;
+  }
 }
 
 @media (max-width: 330px) {
@@ -688,6 +735,10 @@
 
   .locaction-info-container {
     width: 100%;
+  }
+
+  .up-trigolim {
+    display: none;
   }
 }
 
@@ -713,5 +764,9 @@
     height: 100%;
     width: 100%;
     position: absolute;
+  }
+
+  .up-trigolim {
+    display: none;
   }
 }

@@ -268,7 +268,7 @@ header img {
   transition: all 0.5s;
 }
 
-.card:hover{
+.card:hover {
   background-color: var(--colorcuatro);
   cursor: pointer;
   transform: scale(1.01);
@@ -457,20 +457,19 @@ header img {
   width: 50%;
 }
 
-.location-info-maps{
-  overflow:hidden;
-  padding-bottom:36%;
-  position:relative;
-  height:0;
-
+.location-info-maps {
+  overflow: hidden;
+  padding-bottom: 36%;
+  position: relative;
+  height: 0;
 }
 
-.location-info-maps iframe{
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
+.location-info-maps iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 .locaction-info-container {
@@ -515,13 +514,13 @@ hr {
 footer {
   height: 250px;
   bottom: 0;
-  background-color: var(--colortres);
+  background-color: var(--colorcuatro);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 25px;
-  border-top: 1px solid var(--colorseis);
+  /*border-top: 1px solid var(--colorseis);*/
   padding: 10px 0;
 }
 
@@ -546,7 +545,7 @@ footer .footer-logo {
 }
 
 .footer-nav nav ul li a:hover {
-  color: var(--coloruno);
+  color: var(--colorcinco);
 }
 
 .footer-derechos {
@@ -585,4 +584,12 @@ nav label img {
 
 nav label {
   display: none;
+}
+
+/*-------------------------------UP-----------------------------*/
+.up-trigolim {
+  position: fixed;
+  bottom: 18px;
+  right: 18px;
+ 
 }
