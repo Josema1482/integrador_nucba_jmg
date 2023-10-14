@@ -399,7 +399,7 @@ header img {
 }
 
 .contact-btn {
-  border: 1px solid var(--colorseis);
+  border: 1px solid var(--colorseis) !important;
   padding: 12px 24px;
   font-family: var(--fontanton);
   text-transform: uppercase;
@@ -416,8 +416,14 @@ header img {
 
 .contact-btn:hover {
   background-color: var(--coloruno);
-  border: 1px solid var(--coloruno);
+  border: 1px solid var(--coloruno) !important;
   cursor: pointer;
+}
+
+.contact-form form span{
+color: var(--coloruno);
+font-family: var(--fontmonse);
+font-weight: 600;
 }
 
 /*-------------------------LOCATION-------------------------*/

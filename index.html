@@ -151,8 +151,11 @@
         <div class="contact-form">
           <form action="">
             <input id="name" type="text" placeholder="Nombre y Apellido" />
+            <span id="name-error" class="error-message"></span>
             <input id="celular" type="tel" placeholder="Celular" />
+            <span id="celular-error" class="error-message"></span>
             <input id="mail" type="email" placeholder="Correo Electronico" />
+            <span id="mail-error" class="error-message"></span>
             <textarea
               name=""
               id="messenger"
@@ -160,7 +163,8 @@
               rows="10"
               placeholder="Mensaje:"
             ></textarea>
-            <a href="" class="contact-btn">Enviar</a>
+            <span id="messenger-error" class="error-message"></span>
+           <input type="submit" value="Enviar" class="contact-btn">
           </form>
         </div>
       </section>
