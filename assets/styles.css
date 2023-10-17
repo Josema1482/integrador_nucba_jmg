@@ -179,6 +179,7 @@ header img {
   color: var(--colorseis);
   text-transform: uppercase;
   line-height: 45px;
+  /*columns: 2;*/
 }
 
 .about-text-dos {
